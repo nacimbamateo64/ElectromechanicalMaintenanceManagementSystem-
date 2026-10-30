@@ -1,0 +1,9 @@
+[
+  {
+    "scheduleId": 1,
+    "frequency": "monthly",
+    "scheduleDate": "2026-10-30",
+    "isPreventive": true,
+    "workOrderIds": []
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "clientId": 2,
+    "name": "Renata Olalla",
+    "contactInfo": "0983483842",
+    "address": "Valle de los Chillos",
+    "equipmentIds": [1]
+  },
+  {
+    "clientId": 3,
+    "name": "Renata Olalla",
+    "contactInfo": "0983483875",
+    "address": "la Armenia",
+    "equipmentIds": []
+  },
+  {
+    "clientId": 4,
+    "name": "Enrique Nacimba",
+    "contactInfo": "0976542897",
+    "address": "Amaguana",
+    "equipmentIds": []
+  },
+  {
+    "clientId": 5,
+    "name": "Mateo Nacimba",
+    "contactInfo": "0987654321",
+    "address": "La Argelia",
+    "equipmentIds": []
+  },
+  {
+    "clientId": 6,
+    "name": "EdisoN lascnao",
+    "contactInfo": "0988979538",
+    "address": "Quito",
+    "equipmentIds": []
+  },
+  {
+    "clientId": 7,
+    "name": "Ariel Giler",
+    "contactInfo": "0983483017",
+    "address": "La Vicentina",
+    "equipmentIds": [2]
+  }
+]

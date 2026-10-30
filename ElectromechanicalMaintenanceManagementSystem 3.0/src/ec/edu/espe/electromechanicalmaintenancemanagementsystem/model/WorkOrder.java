@@ -3,7 +3,7 @@ package ec.edu.espe.electromechanicalmaintenancemanagementsystem.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WorkOrder {
+public class WorkOrder implements java.io.Serializable {
     private int workOrderId;
     private String description;
     private String priority;
@@ -76,6 +76,18 @@ public class WorkOrder {
 
     public void assignTechnician(Technician technician) {
         this.technician = technician;
+    }
+
+    public void addTask(MaintenanceTask task) {
+        if (task != null && !tasks.contains(task)) tasks.add(task);
+    }
+
+    public void addAlert(Alert alert) {
+        if (alert != null && !alerts.contains(alert)) alerts.add(alert);
+    }
+
+    public void addReport(Report report) {
+        if (report != null && !reports.contains(report)) reports.add(report);
     }
 
     public MaintenanceTask createTask() {

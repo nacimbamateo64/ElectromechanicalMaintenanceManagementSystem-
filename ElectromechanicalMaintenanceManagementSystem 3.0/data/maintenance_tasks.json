@@ -1,0 +1,12 @@
+[
+  {
+    "workOrderId": 1,
+    "taskId": 1,
+    "taskDescription": "Do well",
+    "taskType": "Repair",
+    "estimatedDuration": 4.0,
+    "isCompleted": false,
+    "partIds": [],
+    "regulationIds": []
+  }
+]

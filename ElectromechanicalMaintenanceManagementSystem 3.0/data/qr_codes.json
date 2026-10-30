@@ -1,0 +1,12 @@
+[
+  {
+    "qrId": 1,
+    "codeData": "600",
+    "generateUrl": "https://maintenance.local/equipment/1"
+  },
+  {
+    "qrId": 2,
+    "codeData": "700",
+    "generateUrl": "https://maintenance.local/equipment/2"
+  }
+]

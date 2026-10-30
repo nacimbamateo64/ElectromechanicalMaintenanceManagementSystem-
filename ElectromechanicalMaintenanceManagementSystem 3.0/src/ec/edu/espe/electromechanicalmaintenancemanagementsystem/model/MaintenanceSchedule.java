@@ -3,7 +3,7 @@ package ec.edu.espe.electromechanicalmaintenancemanagementsystem.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MaintenanceSchedule {
+public class MaintenanceSchedule implements java.io.Serializable {
     private int scheduleId;
     private String frequency;
     private String scheduleDate;
@@ -58,6 +58,10 @@ public class MaintenanceSchedule {
 
     public void updateScheduleDate(String newDate) {
         this.scheduleDate = newDate;
+    }
+
+    public void addWorkOrder(WorkOrder order) {
+        if (order != null && !workOrders.contains(order)) workOrders.add(order);
     }
 
     @Override

@@ -1,0 +1,10 @@
+[
+  {
+    "workOrderId": 1,
+    "description": "Equipment ID: 2 | Repare it",
+    "priority": "low",
+    "status": "In progress",
+    "creationDate": "2026-10-30",
+    "technicianId": 2
+  }
+]

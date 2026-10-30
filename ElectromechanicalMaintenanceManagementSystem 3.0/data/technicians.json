@@ -1,0 +1,16 @@
+[
+  {
+    "technicianId": 1,
+    "name": "Marcpo",
+    "expertise": "Ingenirer",
+    "availabilityStatus": true,
+    "reviewedHistoryIds": []
+  },
+  {
+    "technicianId": 2,
+    "name": "Abigail Salinas",
+    "expertise": "Engineer",
+    "availabilityStatus": false,
+    "reviewedHistoryIds": []
+  }
+]
