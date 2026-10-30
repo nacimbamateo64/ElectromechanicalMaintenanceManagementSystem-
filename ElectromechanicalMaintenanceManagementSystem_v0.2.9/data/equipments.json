@@ -1,0 +1,13 @@
+[
+  {
+    "equipmentId": 1,
+    "name": "Motor",
+    "serialNumber": "600",
+    "location": "Guamani",
+    "status": "Available",
+    "qrId": 1,
+    "historyIds": [],
+    "scheduleIds": [],
+    "workOrderIds": []
+  }
+]
